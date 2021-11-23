@@ -43,3 +43,5 @@ Replace:\
 <adb-address.azuredatabricks.net> - replace with Databricks address
   
 
+Note:\
+over Windwos use "-H Content-type:application/scim+json" in command. In documentation is "--header 'Content-type: application/scim+json'" and it is not working over Windows
