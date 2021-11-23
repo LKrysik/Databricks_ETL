@@ -7,9 +7,9 @@ based on [microsoft documentation - scim](https://docs.microsoft.com/en-us/azure
 ```
 machine <adb-address.azuredatabricks.net> login token password <your token>
 ```
-Replace:
-<adb-address.azuredatabricks.net> - with Databricks address
-<your token> - with personal access token
+Replace:\
+<adb-address.azuredatabricks.net> - with Databricks address\
+<your token> - with personal access token\
   
  3. Create json file "create-service-principal.json" with 
   
@@ -30,8 +30,8 @@ Replace:
   ]
 }
 ```
-<application-id> - service principal application id
-<group-id> - group id where SP will be assigned 
-<display-name> - optional
+<application-id> - service principal application id\
+<group-id> - group id where SP will be assigned\
+<display-name> - optional\
   
   
